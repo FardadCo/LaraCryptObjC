@@ -7,6 +7,7 @@
 //
 
 #import "LcViewController.h"
+#import "LaraCrypt.h"
 
 @interface LcViewController ()
 
@@ -18,6 +19,13 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    NSString *key = @"u6KuXJLIUwEUl7noY8J8H1ffDRwLC/5gjaWW1qTQ3hE=";
+    NSString *message = @"123456";
+    NSString *encryptedString = [[LaraCrypt laravelCrypt]laraEncWithMessage:message andKey:key];
+    
+    NSLog(@"encryptedString is: %@",encryptedString);
+    
 }
 
 - (void)didReceiveMemoryWarning

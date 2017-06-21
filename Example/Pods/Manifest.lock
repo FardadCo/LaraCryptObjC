@@ -1,0 +1,16 @@
+PODS:
+  - LaraCryptObjC (0.1.0)
+
+DEPENDENCIES:
+  - LaraCryptObjC (from `../`)
+
+EXTERNAL SOURCES:
+  LaraCryptObjC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LaraCryptObjC: bbe6c3913c9d478b6f0b1f333198825565d853b5
+
+PODFILE CHECKSUM: 2a7e4243d28cd18f6ac4d5594301ca7953995c3f
+
+COCOAPODS: 1.2.1

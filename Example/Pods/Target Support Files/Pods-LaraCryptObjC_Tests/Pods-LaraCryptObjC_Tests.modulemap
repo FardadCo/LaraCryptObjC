@@ -1,0 +1,6 @@
+framework module Pods_LaraCryptObjC_Tests {
+  umbrella header "Pods-LaraCryptObjC_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

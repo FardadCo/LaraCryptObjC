@@ -1,0 +1,6 @@
+framework module LaraCryptObjC {
+  umbrella header "LaraCryptObjC-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BF5ADDE1D4610128D92843039CE6024 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1EA4E8E05A74B8E7716E1AF16E2120B8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		311F5C8FA19756F772F4E185367FB602 /* LaraCryptObjC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00486AFC0DBEC1AF5279313D9895B62A /* LaraCryptObjC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51652D351429DA33D24A3E9CD36340CC /* Pods-LaraCryptObjC_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D86B15865BBF7CCFF5C95705DA005803 /* Pods-LaraCryptObjC_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83544AAC1EFA602E00C2115F /* LaraCrypt.h in Headers */ = {isa = PBXBuildFile; fileRef = 83544AAA1EFA602E00C2115F /* LaraCrypt.h */; };
+		83544AAD1EFA602E00C2115F /* LaraCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 83544AAB1EFA602E00C2115F /* LaraCrypt.m */; };
+		8F68126A8D6548763985D561C2D83724 /* Pods-LaraCryptObjC_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B6267C9014D2B6B7D192D25F5F473E8D /* Pods-LaraCryptObjC_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BAE99088EFB62AABDADD8ED2E1D0BF84 /* LaraCryptObjC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 636950DA41DEE3B8511BFCA9FC29A0CE /* LaraCryptObjC-dummy.m */; };
+		D4C49C5002D10CE8AAF9E4A5BC11153B /* Pods-LaraCryptObjC_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 679A1EF6F6CBAAD0D71F8A8E47939164 /* Pods-LaraCryptObjC_Tests-dummy.m */; };
+		E0E3A6369818DE270D62A96B786FCB38 /* Pods-LaraCryptObjC_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E6C38F28B8F2D3318FC6A166A7394A7C /* Pods-LaraCryptObjC_Example-dummy.m */; };
+		FDB5E76B6E11F38A791CF37509B8187C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		97CC7FE8610F2080941A29E5185B46D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCBC1BE3C58B6E2FF59DB2085A764B45;
+			remoteInfo = LaraCryptObjC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00486AFC0DBEC1AF5279313D9895B62A /* LaraCryptObjC-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaraCryptObjC-umbrella.h"; sourceTree = "<group>"; };
+		0F6363272D297563A4EB5E9BA7E531C6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		12A52BDE57DC69D44073B3E270680AD0 /* Pods_LaraCryptObjC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaraCryptObjC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FED5C21DAAA00F98021A30F8C14978C /* Pods-LaraCryptObjC_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaraCryptObjC_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		275F1CBF526767AE50862C6BF75A7138 /* Pods-LaraCryptObjC_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaraCryptObjC_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2F7730B5DD0ADA38635732F174452948 /* Pods-LaraCryptObjC_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaraCryptObjC_Example-resources.sh"; sourceTree = "<group>"; };
+		352FD6FA596524DDDBDEAF1510358A0E /* Pods_LaraCryptObjC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LaraCryptObjC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A03CD4EA8103A631816AD88C1B1CB18 /* Pods-LaraCryptObjC_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LaraCryptObjC_Example.modulemap"; sourceTree = "<group>"; };
+		3A9427AD503C37CFDFE51163C05B10C1 /* LaraCryptObjC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LaraCryptObjC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E991A1368F99C4189BA5A122EBF374D /* LaraCryptObjC.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LaraCryptObjC.modulemap; sourceTree = "<group>"; };
+		636950DA41DEE3B8511BFCA9FC29A0CE /* LaraCryptObjC-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LaraCryptObjC-dummy.m"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		679A1EF6F6CBAAD0D71F8A8E47939164 /* Pods-LaraCryptObjC_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaraCryptObjC_Tests-dummy.m"; sourceTree = "<group>"; };
+		83544AA91EFA602E00C2115F /* CommonCrypto */ = {isa = PBXFileReference; lastKnownFileType = folder; path = CommonCrypto; sourceTree = "<group>"; };
+		83544AAA1EFA602E00C2115F /* LaraCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LaraCrypt.h; sourceTree = "<group>"; };
+		83544AAB1EFA602E00C2115F /* LaraCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LaraCrypt.m; sourceTree = "<group>"; };
+		895E0DE4663843A9AADA07B5390C4D60 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DB2CD12313D0C38F940D059C01F5A6C /* Pods-LaraCryptObjC_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaraCryptObjC_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		919826783EE57AE9710711D54E3B760B /* Pods-LaraCryptObjC_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaraCryptObjC_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		955795461A8B92E5F7A0668C21BB2A31 /* Pods-LaraCryptObjC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaraCryptObjC_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A578DC7B6D1F21E3FF49E5C5FD1793A4 /* Pods-LaraCryptObjC_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LaraCryptObjC_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A5B2E332D23883D4EAAE45CA5E24463B /* LaraCryptObjC.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LaraCryptObjC.xcconfig; sourceTree = "<group>"; };
+		A81D0D9AD6ED5488088208B223989BF9 /* Pods-LaraCryptObjC_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LaraCryptObjC_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B336F8B526F15D4BB51D2ECB5802A7F3 /* Pods-LaraCryptObjC_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaraCryptObjC_Tests-resources.sh"; sourceTree = "<group>"; };
+		B6267C9014D2B6B7D192D25F5F473E8D /* Pods-LaraCryptObjC_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaraCryptObjC_Example-umbrella.h"; sourceTree = "<group>"; };
+		BB0481CD838D40EF5623B115A42D7014 /* Pods-LaraCryptObjC_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaraCryptObjC_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CDA0A737D5CC6586EE3CAF4EB11BC248 /* LaraCryptObjC-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LaraCryptObjC-prefix.pch"; sourceTree = "<group>"; };
+		D350F31CED2F49B5BCB18F0F82F18702 /* Pods-LaraCryptObjC_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LaraCryptObjC_Example-frameworks.sh"; sourceTree = "<group>"; };
+		D86B15865BBF7CCFF5C95705DA005803 /* Pods-LaraCryptObjC_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LaraCryptObjC_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E2C6E13263A1BBF41445194D25F2AEA9 /* Pods-LaraCryptObjC_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LaraCryptObjC_Tests.modulemap"; sourceTree = "<group>"; };
+		E6C38F28B8F2D3318FC6A166A7394A7C /* Pods-LaraCryptObjC_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LaraCryptObjC_Example-dummy.m"; sourceTree = "<group>"; };
+		FBC5FFBD7725E0BBBDD0A2097CBD7418 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF97204D3936F8948D9E8D33849F7038 /* Pods-LaraCryptObjC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LaraCryptObjC_Example.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		360E02E278D9E2CBB407C32442542BA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1EA4E8E05A74B8E7716E1AF16E2120B8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C0BA8685D087E48347AE0B5C795B187 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1BF5ADDE1D4610128D92843039CE6024 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EE4BC490AF74E947FE5BAF70D96EE78 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB5E76B6E11F38A791CF37509B8187C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		069AE12FE1E5DE6D3BDBDE76C4248123 /* LaraCryptObjC */ = {
+			isa = PBXGroup;
+			children = (
+				6E7615915DCF62B4AFF5BC4A9F7ED42C /* Classes */,
+			);
+			path = LaraCryptObjC;
+			sourceTree = "<group>";
+		};
+		37E7F48E8CEAB51D110FF650841E8F98 /* LaraCryptObjC */ = {
+			isa = PBXGroup;
+			children = (
+				069AE12FE1E5DE6D3BDBDE76C4248123 /* LaraCryptObjC */,
+				DA4AE4AE8BD042C7ECE3F4A2355E93D1 /* Support Files */,
+			);
+			name = LaraCryptObjC;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6B7381DBB5CEBAF218F5D9D64A276580 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37E7F48E8CEAB51D110FF650841E8F98 /* LaraCryptObjC */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6E7615915DCF62B4AFF5BC4A9F7ED42C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83544AA91EFA602E00C2115F /* CommonCrypto */,
+				83544AAA1EFA602E00C2115F /* LaraCrypt.h */,
+				83544AAB1EFA602E00C2115F /* LaraCrypt.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7819FD70296F74B491BFC9B6195A3BFB /* Pods-LaraCryptObjC_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				895E0DE4663843A9AADA07B5390C4D60 /* Info.plist */,
+				E2C6E13263A1BBF41445194D25F2AEA9 /* Pods-LaraCryptObjC_Tests.modulemap */,
+				A81D0D9AD6ED5488088208B223989BF9 /* Pods-LaraCryptObjC_Tests-acknowledgements.markdown */,
+				A578DC7B6D1F21E3FF49E5C5FD1793A4 /* Pods-LaraCryptObjC_Tests-acknowledgements.plist */,
+				679A1EF6F6CBAAD0D71F8A8E47939164 /* Pods-LaraCryptObjC_Tests-dummy.m */,
+				8DB2CD12313D0C38F940D059C01F5A6C /* Pods-LaraCryptObjC_Tests-frameworks.sh */,
+				B336F8B526F15D4BB51D2ECB5802A7F3 /* Pods-LaraCryptObjC_Tests-resources.sh */,
+				D86B15865BBF7CCFF5C95705DA005803 /* Pods-LaraCryptObjC_Tests-umbrella.h */,
+				1FED5C21DAAA00F98021A30F8C14978C /* Pods-LaraCryptObjC_Tests.debug.xcconfig */,
+				955795461A8B92E5F7A0668C21BB2A31 /* Pods-LaraCryptObjC_Tests.release.xcconfig */,
+			);
+			name = "Pods-LaraCryptObjC_Tests";
+			path = "Target Support Files/Pods-LaraCryptObjC_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6B7381DBB5CEBAF218F5D9D64A276580 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B0362CE2A9577CC0097AB247B4B32C86 /* Products */,
+				98D8B6161255FD2721B9D8FCA4D21A74 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98D8B6161255FD2721B9D8FCA4D21A74 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA78F01CAAC8396017A6BACD4D33C9E1 /* Pods-LaraCryptObjC_Example */,
+				7819FD70296F74B491BFC9B6195A3BFB /* Pods-LaraCryptObjC_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0362CE2A9577CC0097AB247B4B32C86 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3A9427AD503C37CFDFE51163C05B10C1 /* LaraCryptObjC.framework */,
+				352FD6FA596524DDDBDEAF1510358A0E /* Pods_LaraCryptObjC_Example.framework */,
+				12A52BDE57DC69D44073B3E270680AD0 /* Pods_LaraCryptObjC_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		DA4AE4AE8BD042C7ECE3F4A2355E93D1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBC5FFBD7725E0BBBDD0A2097CBD7418 /* Info.plist */,
+				5E991A1368F99C4189BA5A122EBF374D /* LaraCryptObjC.modulemap */,
+				A5B2E332D23883D4EAAE45CA5E24463B /* LaraCryptObjC.xcconfig */,
+				636950DA41DEE3B8511BFCA9FC29A0CE /* LaraCryptObjC-dummy.m */,
+				CDA0A737D5CC6586EE3CAF4EB11BC248 /* LaraCryptObjC-prefix.pch */,
+				00486AFC0DBEC1AF5279313D9895B62A /* LaraCryptObjC-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LaraCryptObjC";
+			sourceTree = "<group>";
+		};
+		DA78F01CAAC8396017A6BACD4D33C9E1 /* Pods-LaraCryptObjC_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0F6363272D297563A4EB5E9BA7E531C6 /* Info.plist */,
+				3A03CD4EA8103A631816AD88C1B1CB18 /* Pods-LaraCryptObjC_Example.modulemap */,
+				275F1CBF526767AE50862C6BF75A7138 /* Pods-LaraCryptObjC_Example-acknowledgements.markdown */,
+				919826783EE57AE9710711D54E3B760B /* Pods-LaraCryptObjC_Example-acknowledgements.plist */,
+				E6C38F28B8F2D3318FC6A166A7394A7C /* Pods-LaraCryptObjC_Example-dummy.m */,
+				D350F31CED2F49B5BCB18F0F82F18702 /* Pods-LaraCryptObjC_Example-frameworks.sh */,
+				2F7730B5DD0ADA38635732F174452948 /* Pods-LaraCryptObjC_Example-resources.sh */,
+				B6267C9014D2B6B7D192D25F5F473E8D /* Pods-LaraCryptObjC_Example-umbrella.h */,
+				FF97204D3936F8948D9E8D33849F7038 /* Pods-LaraCryptObjC_Example.debug.xcconfig */,
+				BB0481CD838D40EF5623B115A42D7014 /* Pods-LaraCryptObjC_Example.release.xcconfig */,
+			);
+			name = "Pods-LaraCryptObjC_Example";
+			path = "Target Support Files/Pods-LaraCryptObjC_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2AEFA19341EA8674B6FD52E588173111 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				311F5C8FA19756F772F4E185367FB602 /* LaraCryptObjC-umbrella.h in Headers */,
+				83544AAC1EFA602E00C2115F /* LaraCrypt.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		431D96C69C6CC41B192C745FC64A36E0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51652D351429DA33D24A3E9CD36340CC /* Pods-LaraCryptObjC_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA0BC9B4C0EB66CCFF27A9BCC3949886 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F68126A8D6548763985D561C2D83724 /* Pods-LaraCryptObjC_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		109A8B5D219E566AD9F2664E4CB40C39 /* Pods-LaraCryptObjC_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 240669EC7A2E8C9CD62B7F5ED5D51AA1 /* Build configuration list for PBXNativeTarget "Pods-LaraCryptObjC_Example" */;
+			buildPhases = (
+				956CBBA299CEE078C49515ECDC685117 /* Sources */,
+				3C0BA8685D087E48347AE0B5C795B187 /* Frameworks */,
+				CA0BC9B4C0EB66CCFF27A9BCC3949886 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E6AF4A518CBC5916995872856CE3DD3B /* PBXTargetDependency */,
+			);
+			name = "Pods-LaraCryptObjC_Example";
+			productName = "Pods-LaraCryptObjC_Example";
+			productReference = 352FD6FA596524DDDBDEAF1510358A0E /* Pods_LaraCryptObjC_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7CD955900382A362466FA445413CA5E8 /* Pods-LaraCryptObjC_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2E0FCE313065CCAF1E2DF97973712367 /* Build configuration list for PBXNativeTarget "Pods-LaraCryptObjC_Tests" */;
+			buildPhases = (
+				A563CBC691BF039371BF22670431388A /* Sources */,
+				5EE4BC490AF74E947FE5BAF70D96EE78 /* Frameworks */,
+				431D96C69C6CC41B192C745FC64A36E0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-LaraCryptObjC_Tests";
+			productName = "Pods-LaraCryptObjC_Tests";
+			productReference = 12A52BDE57DC69D44073B3E270680AD0 /* Pods_LaraCryptObjC_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		FCBC1BE3C58B6E2FF59DB2085A764B45 /* LaraCryptObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D22AAC35644405EDC9493881411A05C /* Build configuration list for PBXNativeTarget "LaraCryptObjC" */;
+			buildPhases = (
+				35CA385F8ED50F4DC186B2D1B9287D0A /* Sources */,
+				360E02E278D9E2CBB407C32442542BA8 /* Frameworks */,
+				2AEFA19341EA8674B6FD52E588173111 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaraCryptObjC;
+			productName = LaraCryptObjC;
+			productReference = 3A9427AD503C37CFDFE51163C05B10C1 /* LaraCryptObjC.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B0362CE2A9577CC0097AB247B4B32C86 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FCBC1BE3C58B6E2FF59DB2085A764B45 /* LaraCryptObjC */,
+				109A8B5D219E566AD9F2664E4CB40C39 /* Pods-LaraCryptObjC_Example */,
+				7CD955900382A362466FA445413CA5E8 /* Pods-LaraCryptObjC_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		35CA385F8ED50F4DC186B2D1B9287D0A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83544AAD1EFA602E00C2115F /* LaraCrypt.m in Sources */,
+				BAE99088EFB62AABDADD8ED2E1D0BF84 /* LaraCryptObjC-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		956CBBA299CEE078C49515ECDC685117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E3A6369818DE270D62A96B786FCB38 /* Pods-LaraCryptObjC_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A563CBC691BF039371BF22670431388A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D4C49C5002D10CE8AAF9E4A5BC11153B /* Pods-LaraCryptObjC_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E6AF4A518CBC5916995872856CE3DD3B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LaraCryptObjC;
+			target = FCBC1BE3C58B6E2FF59DB2085A764B45 /* LaraCryptObjC */;
+			targetProxy = 97CC7FE8610F2080941A29E5185B46D5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B12DDF03DDFECBDB9FB403C491C3A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FED5C21DAAA00F98021A30F8C14978C /* Pods-LaraCryptObjC_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LaraCryptObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LaraCryptObjC_Tests/Pods-LaraCryptObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LaraCryptObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		339C3EEC97211CBB0CCD44E6A9C5D268 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 955795461A8B92E5F7A0668C21BB2A31 /* Pods-LaraCryptObjC_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LaraCryptObjC_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LaraCryptObjC_Tests/Pods-LaraCryptObjC_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LaraCryptObjC_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		371A4EE40B4A5DAAA324AFC2B0F7F7D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB0481CD838D40EF5623B115A42D7014 /* Pods-LaraCryptObjC_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LaraCryptObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LaraCryptObjC_Example/Pods-LaraCryptObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LaraCryptObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4FE05EADD121857EC8135B21791C5481 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B2E332D23883D4EAAE45CA5E24463B /* LaraCryptObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LaraCryptObjC/LaraCryptObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LaraCryptObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LaraCryptObjC/LaraCryptObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LaraCryptObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		902FC0AA44A9B0B9F0665517C39FB38D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5B2E332D23883D4EAAE45CA5E24463B /* LaraCryptObjC.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LaraCryptObjC/LaraCryptObjC-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LaraCryptObjC/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LaraCryptObjC/LaraCryptObjC.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LaraCryptObjC;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D26A866A30FDB4457262BC219E12F4D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF97204D3936F8948D9E8D33849F7038 /* Pods-LaraCryptObjC_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LaraCryptObjC_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LaraCryptObjC_Example/Pods-LaraCryptObjC_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_LaraCryptObjC_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		240669EC7A2E8C9CD62B7F5ED5D51AA1 /* Build configuration list for PBXNativeTarget "Pods-LaraCryptObjC_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D26A866A30FDB4457262BC219E12F4D1 /* Debug */,
+				371A4EE40B4A5DAAA324AFC2B0F7F7D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D22AAC35644405EDC9493881411A05C /* Build configuration list for PBXNativeTarget "LaraCryptObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				902FC0AA44A9B0B9F0665517C39FB38D /* Debug */,
+				4FE05EADD121857EC8135B21791C5481 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2E0FCE313065CCAF1E2DF97973712367 /* Build configuration list for PBXNativeTarget "Pods-LaraCryptObjC_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B12DDF03DDFECBDB9FB403C491C3A0 /* Debug */,
+				339C3EEC97211CBB0CCD44E6A9C5D268 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
